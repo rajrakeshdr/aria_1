@@ -30,7 +30,7 @@ app.post("/make-server-f8eac8da/search", async (c) => {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        model: "mixtral-8x7b-32768",
+        model: "qwen/qwen3-32b",
         messages: [
           {
             role: "system",
